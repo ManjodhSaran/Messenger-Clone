@@ -1,0 +1,35 @@
+.message {
+  margin: 8px;
+  width: fit-content;
+}
+
+.message_user {
+  margin-left: auto;
+  color: white;
+  text-align: left !important;
+}
+
+.message_userCard {
+  background-color: #0b81ff !important;
+  color: #ffffff !important;
+}
+
+.message_guestCard {
+  background: #e9e9eb !important;
+}
+
+.user_message {
+  text-decoration: none;
+}
+
+.user_name {
+  text-decoration: none;
+  background: rgb(0, 0, 0);
+}
+.hidden {
+  display: none;
+}
+.user_name {
+  text-transform: capitalize;
+  color: white;
+}

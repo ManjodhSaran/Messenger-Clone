@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("https://wallpaperaccess.com/full/1493643.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: auto;
+}
+main{
+    background-color: #fff;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 8px;
+    border: 0.5px solid yellowgreen;
+}

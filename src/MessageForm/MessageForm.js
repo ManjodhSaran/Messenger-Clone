@@ -22,7 +22,7 @@ const MessageForm = ({ username }) => {
     };
 
     return (
-        <messageform className="messageform">
+        <div className="messageform">
             <FormControl className="form-control">
                 <Input className="form-input" placeholder="Enter a message..." value={input} onChange={event => setInput(event.target.value)} />
                 <IconButton
@@ -36,7 +36,7 @@ const MessageForm = ({ username }) => {
                     <SendIcon />
                 </IconButton>
             </FormControl>
-        </messageform>
+        </div>
     )
 }
 

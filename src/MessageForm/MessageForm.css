@@ -1,27 +1,24 @@
 .messageform {
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  text-align: center;
-  padding: 20px;
+  left: 0;
   width: 100%;
-  width: auto;
   background-color: hsl(240, 5%, 92%);
   z-index: 1;
-  margin: auto;
 }
 .form-control {
   background: rgb(211, 211, 211);
   display: flex !important;
   flex-direction: row !important;
   margin-bottom: 5px !important;
+  padding: 20px;
 }
 .form-input {
-  width: 675px;
   padding-left: 10px;
   flex: 1;
 }
 .form-icon {
-  flex: 0;
+  flex: 1;
 }
 .border-bottom {
   content: "";

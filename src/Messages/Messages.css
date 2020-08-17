@@ -1,0 +1,34 @@
+.messages {
+  position: relative;
+  flex: 1;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+  margin: 0px 0 50px;
+  overflow-x: hidden;
+}
+
+/* width */
+.messages::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.messages::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.messages::-webkit-scrollbar-thumb {
+  background: #0b81ff;
+}
+
+/* Handle on hover */
+.messages::-webkit-scrollbar-thumb:hover {
+  background: #003d7e;
+}
+
+@media screen and (max-width: 800px) {
+  .messages::-webkit-scrollbar {
+    display: none;
+  }
+}

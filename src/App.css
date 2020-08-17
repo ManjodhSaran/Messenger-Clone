@@ -6,14 +6,28 @@ body {
   background: url("https://wallpaperaccess.com/full/1493643.jpg");
   /* background-repeat: no-repeat; */
   background-size: auto;
+  max-height: 100vh;
+  overflow: hidden;
 }
 main {
+  position: relative;
   background-color: #fff;
-  width: 40%;
-  height: 750px;
+  width: 800px;
+  max-height: 75vh;
+  min-height: 75vh;
   margin: auto;
   margin-top: 3%;
   margin-bottom: 3%;
   padding: 8px;
   border: 0.5px solid yellowgreen;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    width: 95.5%;
+    min-height: 97vh;
+    margin: 0;
+  }
 }
